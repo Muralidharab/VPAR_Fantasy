@@ -16,17 +16,48 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 
 .user-input-field {
   position: relative;
   width: 500px;
   height: 56px;
+  top: 40px;
 }
+
 .login-button {
+  position: relative;
   max-width: 500px !important;
   height: 50px;
-  min-width: 64px !important;
+  width: 500px;
   padding: 6px 16px !important;
   background-color: #e95d06 !important;
+  bottom: 10px;
+  color: #fff;
+}
+
+.account {
+  color: #e95d06;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.login-page-image {
+  margin-top: 30px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #e95d06;
+}
+
+.login-container-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px
 }
